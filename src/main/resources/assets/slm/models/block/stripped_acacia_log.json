@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "slm:blocks/stripped_acacia_log_top",
+    "up": "slm:blocks/stripped_acacia_log_top",
+    "north": "slm:blocks/stripped_acacia_log",
+    "east": "slm:blocks/stripped_acacia_log",
+    "south": "slm:blocks/stripped_acacia_log",
+    "west": "slm:blocks/stripped_acacia_log"
+  }
+}

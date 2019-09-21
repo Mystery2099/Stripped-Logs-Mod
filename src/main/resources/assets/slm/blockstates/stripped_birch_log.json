@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "slm:stripped_birch_log"
+    },
+    "facing=south": {
+      "model": "slm:stripped_birch_log"
+    },
+    "facing=north": {
+      "model": "slm:stripped_birch_log"
+    },
+    "facing=east": {
+      "model": "slm:stripped_birch_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "slm:stripped_birch_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "slm:stripped_birch_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "slm:stripped_birch_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
