@@ -15,6 +15,9 @@ public class ItemStripper extends Item implements IHasModel
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.MATERIALS);
 		setContainerItem(this);
+		setMaxDamage(1);
+		maxStackSize = 1;
+
 
 		
 		ModItems.ITEMS.add(this);

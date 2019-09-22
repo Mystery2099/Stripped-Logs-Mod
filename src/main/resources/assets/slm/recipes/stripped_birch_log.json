@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+         "item": "minecraft:log",
+         "data": 2
+        },
+        {
+         "item": "slm:wood_stripper" 
+        }
+    ],
+    "result": {
+        "item": "slm:stripped_birch_log",
+        "count": 1
+    }
+}
