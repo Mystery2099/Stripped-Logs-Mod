@@ -13,7 +13,7 @@ public class ItemStripper extends Item implements IHasModel
 	{
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(Main.STRIPPEDWOODTAB);
 		setContainerItem(this);
 		setMaxDamage(1);
 		maxStackSize = 1;

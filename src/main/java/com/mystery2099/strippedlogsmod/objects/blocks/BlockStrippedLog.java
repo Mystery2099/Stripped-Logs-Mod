@@ -1,11 +1,14 @@
 package com.mystery2099.strippedlogsmod.objects.blocks;
 
+import com.mystery2099.strippedlogsmod.Main;
+
 import net.minecraft.block.BlockDirectional;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumFacing;
@@ -28,6 +31,7 @@ public class BlockStrippedLog extends BlockBase {
 		setHardness(2F);
 		setResistance(10.0F);
 		setHarvestLevel("axe", 0);
+		setCreativeTab(Main.STRIPPEDWOODTAB);
 		//setLightLevel(1.0f);
 		//setLightOpacity(1.0F);
 		//setBlockUnbreakable();
